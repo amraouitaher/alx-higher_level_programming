@@ -5,7 +5,6 @@
  * @list: pointer to the beginning of the node
  * Return: 0 if no cycle, 1 if there is a cycle
  */
-
 int check_cycle(listint_t *list)
 {
     if (list == NULL || list->next == NULL)
